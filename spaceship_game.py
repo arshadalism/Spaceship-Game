@@ -49,9 +49,6 @@ RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(
 
 SPACE = pygame.transform.scale(pygame.image.load(os.path.join('Assets', 'space.png')), (WIDTH, HEIGHT))
 
-HEALTH_SIGN = pygame.image.load("Health_Sign.png")
-HEALTH_SIGN = pygame.transform.scale(HEALTH_SIGN, (Health_Width, Health_Height))
-
 
 def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health):
     # WIN.fill(WHITE)
